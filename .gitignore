@@ -1,0 +1,8 @@
+*.mif
+*.out
+*.dat.bak
+__pycache__/
+*-backups/
+*.kicad_prl
+.history/
+fp-info-cache

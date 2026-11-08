@@ -1,0 +1,20 @@
+* S4b - Montecarlo del amplificador diferencial ANTERIOR (Etapa 2): R6-R9 al 1 %, Vcm ~ 3,2 V
+* Corriente ideal 99,978 mA, RDUT = 10 mOhm. Salida: R calculada como en el firmware anterior.
+.LIB "modelos/OPAx391.lib"
+V_VDD VDD 0 3.3
+I_T   VDUTM 0 DC 99.978m
+R_DUT VDD VDUTM 10m
+R_R4  VDD VREF_MID R1PCT 1k
+R_R5  0 VREF_MID R1PCT 1k
+R_R6  VREF_MID N1 R1PCT 160k
+R_R7  N1 VDD R1PCT 10k
+R_R8  N2 VOUT R1PCT 160k
+R_R9  N2 VDUTM R1PCT 10k
+X_U3  N1 N2 VDD 0 VOUT OPAX391
+E_RMED RMED 0 VALUE={IF(TIME>150u,(V(VOUT)-V(VREF_MID))/(16*0.099978),0)}
+.MODEL R1PCT RES(R=1 DEV=1%)
+
+.OPTIONS ADVCONV
+.TRAN 1u 200u 0 1u
+.MC 300 TRAN V([RMED]) MAX SEED=2026
+.END

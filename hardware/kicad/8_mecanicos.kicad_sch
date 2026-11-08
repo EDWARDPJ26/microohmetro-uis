@@ -1,0 +1,1138 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "fb95c20f-cc02-5176-a1bc-6d0db343f833")
+	(paper "A4")
+	(title_block
+		(title "8. Mecanicos y puntos de prueba")
+		(date "2026-11-07")
+		(rev "2.0")
+		(company "Universidad Industrial de Santander - E3T")
+		(comment 1 "Micro-ohmimetro de precision 1 mOhm - 1 Ohm")
+		(comment 2 "E. A. Pacheco J. (2222236) - J. T. Albarracin C. (2220415)")
+		(comment 3 "Diseno de Sistemas Electronicos - Prof. Jaime Barrero")
+	)
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 -1.27)
+						(xy 1.27 -1.27)
+						(xy 0 -2.54)
+						(xy -1.27 -1.27)
+						(xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 1.27)
+						(xy -1.016 1.905)
+						(xy 0 2.54)
+						(xy 1.016 1.905)
+						(xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 35.560 71.120 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "53187eb3-bd37-5145-8216-6b03925b6ab6")
+		(property "Reference" "TP801"
+			(at 33.020 76.860 0)
+			(effects (font (size 1.524 1.524)) (justify left))
+		)
+		(property "Value" "TP U0TX"
+			(at 33.020 79.460 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 35.560 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 35.560 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "Punto de prueba"
+			(at 35.560 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "a2cbeaff-2af9-558c-88c5-ae0588d00982")
+		)
+		(instances
+			(project "microohmetro_v2"
+				(path "/ff118327-21bf-5e9a-853a-d2f44fb9c23c/d344d3ed-61b0-5f34-a8ae-b97695a65e6a"
+					(reference "TP801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "U0TX"
+		(shape bidirectional)
+		(at 35.560 71.120 270)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "def10762-6eb6-51b1-ba82-af07e74af696")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.560 78.920 270)
+			(effects (font (size 1.0 1.0) italic) (justify right))
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 71.120 71.120 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3bd970f-1482-5812-b43a-51a14cc9c47f")
+		(property "Reference" "TP802"
+			(at 68.580 76.860 0)
+			(effects (font (size 1.524 1.524)) (justify left))
+		)
+		(property "Value" "TP U0RX"
+			(at 68.580 79.460 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 71.120 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 71.120 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "Punto de prueba"
+			(at 71.120 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "d9e0b884-1a97-5657-a728-ae5b8a0ae921")
+		)
+		(instances
+			(project "microohmetro_v2"
+				(path "/ff118327-21bf-5e9a-853a-d2f44fb9c23c/d344d3ed-61b0-5f34-a8ae-b97695a65e6a"
+					(reference "TP802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "U0RX"
+		(shape bidirectional)
+		(at 71.120 71.120 270)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "7675a2a7-96ac-5d69-9c83-6d8b16cd5412")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.120 78.920 270)
+			(effects (font (size 1.0 1.0) italic) (justify right))
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 106.680 71.120 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "379ec101-3033-5c94-ac76-6bca9bad3c67")
+		(property "Reference" "TP803"
+			(at 104.140 80.660 0)
+			(effects (font (size 1.524 1.524)) (justify left))
+		)
+		(property "Value" "TP GND"
+			(at 104.140 83.260 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 106.680 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 106.680 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "Punto de prueba"
+			(at 106.680 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "9ef6289f-044e-5b23-bad9-11d111831bc9")
+		)
+		(instances
+			(project "microohmetro_v2"
+				(path "/ff118327-21bf-5e9a-853a-d2f44fb9c23c/d344d3ed-61b0-5f34-a8ae-b97695a65e6a"
+					(reference "TP803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.680 71.120 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f787663-9ab9-5e4f-9f4a-147bdb3a2ca4")
+		(property "Reference" "#PWR098"
+			(at 106.680 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 106.680 74.520 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 106.680 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 106.680 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" ""
+			(at 106.680 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "b60dba40-e1a5-5ef3-a0d2-b00e58a0dbb2")
+		)
+		(instances
+			(project "microohmetro_v2"
+				(path "/ff118327-21bf-5e9a-853a-d2f44fb9c23c/d344d3ed-61b0-5f34-a8ae-b97695a65e6a"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 142.240 71.120 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "89101cb2-f986-53c7-99f6-7efc54f115e4")
+		(property "Reference" "TP804"
+			(at 139.700 76.860 0)
+			(effects (font (size 1.524 1.524)) (justify left))
+		)
+		(property "Value" "TP SYS"
+			(at 139.700 79.460 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 142.240 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 142.240 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "Punto de prueba"
+			(at 142.240 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "bad7e28b-26cb-5376-bff0-6b0ecd97e866")
+		)
+		(instances
+			(project "microohmetro_v2"
+				(path "/ff118327-21bf-5e9a-853a-d2f44fb9c23c/d344d3ed-61b0-5f34-a8ae-b97695a65e6a"
+					(reference "TP804")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "SYS"
+		(shape bidirectional)
+		(at 142.240 71.120 270)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "ce018b32-d35a-50ad-b103-5ef03753ac0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.240 77.820 270)
+			(effects (font (size 1.0 1.0) italic) (justify right))
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 177.800 71.120 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf26aad7-ba28-5f4a-b356-f43eab13903d")
+		(property "Reference" "TP805"
+			(at 175.260 76.860 0)
+			(effects (font (size 1.524 1.524)) (justify left))
+		)
+		(property "Value" "TP VBAT_CHG"
+			(at 175.260 79.460 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 177.800 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 177.800 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "Punto de prueba"
+			(at 177.800 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "4f7a0aa8-6b63-5dab-a3dc-14fdaa98a360")
+		)
+		(instances
+			(project "microohmetro_v2"
+				(path "/ff118327-21bf-5e9a-853a-d2f44fb9c23c/d344d3ed-61b0-5f34-a8ae-b97695a65e6a"
+					(reference "TP805")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "VBAT_CHG"
+		(shape bidirectional)
+		(at 177.800 71.120 270)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "e0c92170-6e73-5f21-87bf-23eb0344e31b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.800 83.320 270)
+			(effects (font (size 1.0 1.0) italic) (justify right))
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.360 71.120 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d75836f2-b04c-5b20-94d8-a469cba01836")
+		(property "Reference" "TP806"
+			(at 210.820 76.860 0)
+			(effects (font (size 1.524 1.524)) (justify left))
+		)
+		(property "Value" "TP AVDD"
+			(at 210.820 79.460 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 213.360 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 213.360 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "Punto de prueba"
+			(at 213.360 71.120 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "0dd72678-7f89-51c4-906a-f062e445372f")
+		)
+		(instances
+			(project "microohmetro_v2"
+				(path "/ff118327-21bf-5e9a-853a-d2f44fb9c23c/d344d3ed-61b0-5f34-a8ae-b97695a65e6a"
+					(reference "TP806")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "AVDD"
+		(shape bidirectional)
+		(at 213.360 71.120 270)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "1a227e4e-c9cb-57c7-bc04-cc607ecafad8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.360 78.920 270)
+			(effects (font (size 1.0 1.0) italic) (justify right))
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 35.560 111.760 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b17035e-f148-5750-a6ef-571e9db883b8")
+		(property "Reference" "H801"
+			(at 35.560 106.680 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "M3"
+			(at 35.560 116.840 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 35.560 111.760 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 35.560 111.760 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "Agujero de montaje M3"
+			(at 35.560 111.760 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(instances
+			(project "microohmetro_v2"
+				(path "/ff118327-21bf-5e9a-853a-d2f44fb9c23c/d344d3ed-61b0-5f34-a8ae-b97695a65e6a"
+					(reference "H801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 71.120 111.760 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c582075-5dfc-5def-a2d4-9ef89a76b547")
+		(property "Reference" "H802"
+			(at 71.120 106.680 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "M3"
+			(at 71.120 116.840 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 71.120 111.760 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 71.120 111.760 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "Agujero de montaje M3"
+			(at 71.120 111.760 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(instances
+			(project "microohmetro_v2"
+				(path "/ff118327-21bf-5e9a-853a-d2f44fb9c23c/d344d3ed-61b0-5f34-a8ae-b97695a65e6a"
+					(reference "H802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 106.680 111.760 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4245e2fd-51b7-5f6f-9cb7-45bdb2e42e5d")
+		(property "Reference" "H803"
+			(at 106.680 106.680 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "M3"
+			(at 106.680 116.840 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 106.680 111.760 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 106.680 111.760 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "Agujero de montaje M3"
+			(at 106.680 111.760 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(instances
+			(project "microohmetro_v2"
+				(path "/ff118327-21bf-5e9a-853a-d2f44fb9c23c/d344d3ed-61b0-5f34-a8ae-b97695a65e6a"
+					(reference "H803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 142.240 111.760 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1add6645-98a0-5ae8-a068-aff52b8fe8a7")
+		(property "Reference" "H804"
+			(at 142.240 106.680 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "M3"
+			(at 142.240 116.840 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 142.240 111.760 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 142.240 111.760 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "Agujero de montaje M3"
+			(at 142.240 111.760 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(instances
+			(project "microohmetro_v2"
+				(path "/ff118327-21bf-5e9a-853a-d2f44fb9c23c/d344d3ed-61b0-5f34-a8ae-b97695a65e6a"
+					(reference "H804")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254.000 76.200 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b3633f53-ee25-5ed6-b3c3-120a1a20e07c")
+		(property "Reference" "#PWR099"
+			(at 254.000 76.200 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 254.000 79.600 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 254.000 76.200 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 254.000 76.200 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" ""
+			(at 254.000 76.200 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "20a8f937-9c49-55a5-83ef-b3de000720ee")
+		)
+		(instances
+			(project "microohmetro_v2"
+				(path "/ff118327-21bf-5e9a-853a-d2f44fb9c23c/d344d3ed-61b0-5f34-a8ae-b97695a65e6a"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 254.000 76.200 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7b25dbd-2472-53c8-9af4-5440474e8880")
+		(property "Reference" "#FLGMEC6"
+			(at 254.000 76.200 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 254.000 72.600 0)
+			(effects (font (size 1.0 1.0)))
+		)
+		(property "Footprint" ""
+			(at 254.000 76.200 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 254.000 76.200 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" ""
+			(at 254.000 76.200 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "c537c748-5df7-5f79-83ef-be3ce5813c0c")
+		)
+		(instances
+			(project "microohmetro_v2"
+				(path "/ff118327-21bf-5e9a-853a-d2f44fb9c23c/d344d3ed-61b0-5f34-a8ae-b97695a65e6a"
+					(reference "#FLGMEC6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "8. Mecanicos y puntos de prueba"
+		(exclude_from_sim no)
+		(at 17.78 15.24 0)
+		(effects (font (size 3.2 3.2) (thickness 0.35) bold (color 0 72 132 1)) (justify left bottom))
+		(uuid "6a5a695e-7c53-5ba0-aece-dda12178a5e0")
+	)
+	(text "Agujeros M3, puntos de prueba y bandera de GND."
+		(exclude_from_sim no)
+		(at 17.78 21.84 0)
+		(effects (font (size 1.6 1.6) (color 0 72 132 1)) (justify left bottom))
+		(uuid "f4c5f666-9b52-5922-8536-832ac3dc2489")
+	)
+	(text "Etiqueta global: [n] = pagina donde continua la senal."
+		(exclude_from_sim no)
+		(at 17.78 182.88 0)
+		(effects (font (size 1.3 1.3) (color 0 72 132 1)) (justify left bottom))
+		(uuid "1a5fa389-2f89-56ab-b856-69b43e69cbf6")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,10 @@
+* S2 - Respuesta transitoria del lazo: escalon I_L -> I_H (t=12 ms) y apagado (t=20 ms)
+.PARAM RDUT=1m VSYS=3.5 VOS_OPA=0 VEMF=0
+.INC "circuito_v2.inc"
+V_OFF OFFCTL 0 PWL(0 1 0.2m 1 0.21m 0 20m 0 20.01m 1)
+V_LOW LOWCTL 0 PWL(0 1 12m 1 12.01m 0)
+.STEP PARAM RDUT LIST 1m 1
+.TRAN 10u 24m 0 2u UIC
+.PRINT TRAN V([IMINUS],[NLIFT]) V([GATE]) V([VSET])
+.OPTIONS RELTOL=1e-5 VNTOL=1e-9 ABSTOL=1e-12 NUMDGT=8
+.END

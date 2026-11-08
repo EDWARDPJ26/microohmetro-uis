@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "microohm")(type "KiCad")(uri "${KIPRJMOD}/Librerias/microohm.kicad_sym")(options "")(descr "Simbolos propios del micro-ohmimetro v2"))
+)

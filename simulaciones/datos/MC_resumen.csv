@@ -1,0 +1,5 @@
+Archivo,n_validas,media_pct,sigma_pct,min_pct,max_pct,3sigma_pct
+MC_RDUT1m_RS1,283,0.0254,0.5745,-0.9855,0.9851,1.7236
+MC_RDUT1_RS1,271,0.0217,0.5589,-0.9816,0.9908,1.6767
+MC_RDUT1m_RS01,286,-0.0010,0.0565,-0.1078,0.0915,0.1695
+MC_disenio_anterior,299,5.7044,87.7501,-100.0000,284.0000,263.2504

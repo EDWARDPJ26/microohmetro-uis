@@ -1,0 +1,48 @@
+Bloque,Ref,Cant,Valor/MPN,Encapsulado,Material/Spec,Estado
+Medicion,U1,1,AD7124-4BBCPZ-RL7,LFCSP-32 5x5 EP,ADC sigma-delta 24 bit,Rangos verificados; pinout en B3
+Medicion,U2,1,REF3325AIDBZR,SOT-23-3,2.5 V 0.15% 30 ppm/C,Verificado
+Medicion,U3,1,INA181A1IDBVR,SOT-23-6,20 V/V,Verificado
+Medicion,U4,1,OPA388IDBVR,SOT-23-5,Zero-drift 5 uV,Verificado
+Medicion,Q2,1,NTD25P03LT4G,DPAK TO-252,P-MOS -30 V logic level,SOA VERIFICAR B3
+Medicion,Q3,1,2N7002,SOT-23,N-MOS conmutacion I_OFF,OK
+Medicion,Q5,1,2N7002,SOT-23,N-MOS nivel I_L,OK
+Medicion,R(I_L),1,9.31 kohm,0603,Thick film 1%,Valor no critico (ratiometrico)
+Medicion,R_LIFT,1,0.68 ohm 1%,2512 1 W,Thick film; eleva modo comun,OK
+Medicion,RS1,1,0.12 ohm 1% 4 terminales (fam. WSK2512),2512 4T,Metal strip >=1 W TCR<=50 ppm/C,MPN VERIFICAR B3
+Medicion,J4-J7,4,Keystone 575-4,THT banana 4 mm,I+ rojo I- negro S+ amarillo S- azul,OK (excepcion THT)
+Medicion,D3-D4,2,BAT54S,SOT-23,Clamp entradas S+/S-,OK
+Medicion,R(S+/S-),2,1 kohm,0603,Thin film 0.1% 25 ppm/C,OK
+Medicion,C(S cm),2,1 nF,0603,C0G/NP0 50 V,OK
+Medicion,C(S dif),1,10 nF,0603,C0G/NP0 50 V,OK
+Medicion,R(RS sense),2,100 ohm,0603,Thin film 0.1%,OK
+Medicion,R(VSET),1,10 kohm,0603,Thin film 0.1%,OK
+Medicion,C(VSET),1,22 nF,0603,C0G/NP0,OK (B2: tau 0.22 ms)
+Medicion,R(integ),1,10 kohm,0603,Thin film 0.1%,Validado en B2
+Medicion,C(integ),1,10 nF,0603,C0G/NP0,Validado en B2
+Medicion,R(gate),1,100 ohm,0603,Thick film 1%,OK
+Medicion,R(gate pull-up),1,100 kohm,0603,Thick film 1%,OK
+Medicion,FB1,1,Ferrita 600 ohm@100 MHz,0603,AVDD AD7124,OK
+Energia,J3,1,USB-C 24p 5 A SMD,SMD + pestanas THT,Compatible EPR,MPN VERIFICAR B3
+Energia,D5,1,SMBJ12A,SMB,TVS VBUS,OK
+Energia,U5,1,STUSB4500QTR,QFN-24 4x4,PD sink 9 V/2 A (Rd interno),Verificado
+Energia,Q4,1,AO3401A,SOT-23,Switch VBUS -30 V,OK
+Energia,U6,1,BQ25895RTWR,WQFN-24 4x4,Cargador buck 1S I2C,Verificado
+Energia,L1,1,2.2 uH Isat>=3.5 A DCR<=20 mohm,4x4 mm aprox,Inductor potencia,MPN VERIFICAR B3
+Energia,R(ILIM),1,178 ohm,0603,Thick film 1%,Verificado (KILIM 355)
+Energia,R(TS RT1/RT2),2,5.23 kohm / 30.1 kohm,0603,Thick film 1%,Verificado
+Energia,TH1,1,NTC 10 kohm B~3380,0603,Junto a bateria,OK
+Energia,Q1,1,AON7403 (candidato),DFN 3x3,P-MOS polaridad RDS<=20 mohm @-2.5 V,VERIFICAR B3
+Energia,U7,1,AP2112K-3.3TRG1,SOT-23-5,LDO 600 mA,OK
+Energia,U8,1,USBLC6-2SC6,SOT-23-6,ESD D+/D-,OK
+Energia,J8,1,JST S2B-XH-SM4-TB,SMD lateral 2.5 mm,Conector LiPo 3 A,OK
+Energia,BAT1,1,LiPo 1S 2000 mAh >=2C (8x50x60 mm aprox),Adhesiva cara B,Con PCM,Definir modelo
+Energia,C(VBUS/PMID),3,10 uF 25 V,0805,X7R,OK
+Energia,C(SYS/BAT),3,10 uF 10 V,0805,X7R,OK
+Energia,C(REGN),1,4.7 uF 10 V,0603,X7R,OK
+Energia,C(BTST),1,47 nF,0603,X7R,OK
+MCU,U9,1,ESP32-C3-MINI-1-N4,Modulo SMD 13.2x16.6,BLE5 + WiFi + USB nativo,Estado MP VERIFICAR B3
+MCU,SW1-SW2,2,Pulsador SMD (RESET/BOOT),SMD,Alps SKRK o similar,OK
+MCU,LED1,1,LED verde,0603,Estado,OK
+MCU,C(EN),1,1 uF,0603,X7R,OK
+General,R pull-up/varios,~10,10 kohm / 100 kohm / 1 kohm,0603,Thick film 1%,OK
+General,C desacoplo,~15,100 nF / 1 uF / 10 uF,0603/0805,X7R >=2x Vtrabajo,OK
